@@ -11,7 +11,7 @@ viewer.textContent = ""; //Resetando o visor
 
 //Função para escrever no visor
 function write(v) {
-  clear.textContent = "C";
+  clearButton.textContent = "C";
   viewer.textContent = `${viewer.textContent}${v}`;
 }
 function clear() {
